@@ -11,7 +11,7 @@ from datetime import datetime
 from supabase import create_client, Client
 
 # Set Tesseract path
-pytesseract.pytesseract.tesseract_cmd = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = os.system("which tesseract")
 
 # Set Streamlit page configuration
 st.set_page_config(page_title="Receipt Scanner", page_icon="🥾", layout="centered")
