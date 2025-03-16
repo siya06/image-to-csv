@@ -1,0 +1,7 @@
+streamlit
+pytesseract
+Pillow
+pdf2image
+pdfplumber
+pandas
+supabase
