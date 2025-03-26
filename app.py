@@ -21,9 +21,8 @@ if not os.path.exists("uploads"):
     os.makedirs("uploads")
 
 # Supabase configuration
-SUPABASE_URL = "https://pwudznklflafbnmzyjxk.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB3dWR6bmtsZmxhZmJubXp5anhrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDIxMDY3NjAsImV4cCI6MjA1NzY4Mjc2MH0.LJkKxb8_UAaWhDHFwFuRaUAHPmF7norEpXKIBPtyt-Y"
-
+SUPABASE_URL = "your url"
+SUPABASE_KEY = "your key"
 # Initialize Supabase client
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
